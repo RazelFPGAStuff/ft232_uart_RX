@@ -5,7 +5,7 @@
 # 50MHz clock
 NET "i_Clk" LOC = "C9" ;
 
-NET "i_RX_Serial" LOC = "A16"; # RXD - Receive data  from HOST
+NET "i_RX_Serial" LOC = "D5"; # PIN3 of PMOD FT232  -->RXD - Receive data  from HOST
 
 NET "o_RX_DV" LOC = "B16";
 
